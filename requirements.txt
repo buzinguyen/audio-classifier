@@ -1,0 +1,8 @@
+tensorflow==1.8.0
+maxfw==1.1.3
+werkzeug==0.14.1
+pandas==0.23.1
+resampy
+requests==2.22.0
+h5py==2.8.0
+wget==3.2
