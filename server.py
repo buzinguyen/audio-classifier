@@ -16,10 +16,6 @@
 
 ## migrate from server_merge.py
 
-import wget
-wget.download("https://storage.googleapis.com/audioset/vggish_pca_params.npz", "/app/assets/vggish_pca_params.npz")
-wget.download("https://storage.googleapis.com/audioset/vggish_model.ckpt", "/app/assets/vggish_model.ckpt")
-
 from maxfw.core import MAXApp
 from api import ModelMetadataAPI, ModelPredictAPI
 from config import API_TITLE, API_DESC, API_VERSION
